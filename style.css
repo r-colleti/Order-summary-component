@@ -1,0 +1,154 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	height: 697px;
+	width: 450px;
+	max-width: 100%;
+	background-color: white;
+	border-radius: 20px;
+	margin: 0 23px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ilustre {
+	border-radius: 20px 20px 0px 0px;
+	width: 450px;
+	max-width: 100%;
+}
+
+.copy {
+	display: flex;
+	justify-content: center;
+}
+
+.copy h1 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	font-size: 25px;
+	color: hsl(223, 47%, 23%);
+	margin: 50px 0 30px 0;
+}
+
+.copy p {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 15px;
+	color: hsl(224, 23%, 55%);
+	margin: 0 75px 20px 75px;
+	line-height: 25px;
+}
+
+.flexplan {
+	display: flex;
+	justify-content: center;
+}
+
+.plan {
+	background-color: hsl(225, 100%, 98%);
+	width: 355px;
+	height: 95px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 0 28px 0;
+}
+
+.subplan {
+	display: flex;
+}
+
+.nameplan {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color: hsl(223, 47%, 23%);
+	letter-spacing: -1px;
+	margin: 0 0;
+}
+
+.priceplan {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: hsl(224, 23%, 55%);
+	margin: 0 0;
+}
+
+.changeflex {
+	display: flex;
+	margin: 0 23px 0 0;
+}
+
+.changeflex a {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.icnmusic {
+	margin: 0 23px;
+}
+
+button {
+	width: 355px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: hsl(245, 83%, 68%);
+	border-style: none;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+	margin: 0 0 34px 0;
+}
+
+.cancelorder a {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	color: hsl(223, 47%, 23%);
+	text-decoration: none;
+}
+
+@media (max-width: 490px) {
+	.copy h1 {
+	margin: 38px 0 28px 0;
+	}
+
+	.copy p {
+	margin: 0 50px 20px 50px;
+	}
+	
+	.plan {
+	border-radius: 15px;
+	width: 277px;
+	max-width: 100%;
+	height: 80px;
+	margin: 0 0 22px 0;
+	}
+
+	button {
+	border-radius: 13px;
+	width: 280px;
+	max-width: 100%;
+	height: 50px;
+	margin: 0 0 28px 0;
+	}	
+}
